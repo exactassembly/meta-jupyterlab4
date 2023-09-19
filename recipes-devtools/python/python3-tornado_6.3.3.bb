@@ -14,3 +14,5 @@ inherit pypi setuptools3
 RDEPENDS:${PN} += "${PYTHON_PN}-compression ${PYTHON_PN}-numbers ${PYTHON_PN}-email \
                    ${PYTHON_PN}-pkgutil ${PYTHON_PN}-html ${PYTHON_PN}-json ${PYTHON_PN}-certifi ${PYTHON_PN}-threading \
                    ${PYTHON_PN}-ctypes ${PYTHON_PN}-misc"
+
+BBCLASSEXTEND = "native nativesdk"
