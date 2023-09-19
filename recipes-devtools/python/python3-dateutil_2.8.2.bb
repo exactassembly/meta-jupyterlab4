@@ -16,6 +16,8 @@ DEPENDS = "\
 
 inherit pypi python_setuptools_build_meta
 
-RDEPENDS_${PN} = ""
+RDEPENDS_${PN} = "\
+    ${PYTHON_PN}-six \
+"
 
 BBCLASSEXTEND = "native nativesdk"
