@@ -1,0 +1,20 @@
+From c4017f86f13747ce6d655e8559ed7e45c015623c Mon Sep 17 00:00:00 2001
+From: OpenEmbedded <oe.patch@oe>
+Date: Wed, 20 Sep 2023 18:27:38 +0000
+Subject: [PATCH] %% original patch: 001_fix_build_dependency.patch
+
+---
+ pyproject.toml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/pyproject.toml b/pyproject.toml
+index 494b978..84df1b9 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -1,5 +1,5 @@
+ [build-system]
+-requires = ["jupyter_packaging~=0.10,<2", "jupyterlab~=3.1"]
++requires = ["jupyter_packaging~=0.10,<2"]
+ build-backend = "jupyter_packaging.build_api"
+ 
+ [tool.jupyter-packaging.options]
