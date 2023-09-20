@@ -2,15 +2,17 @@
 SUMMARY = "The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications."
 HOMEPAGE = "https://jupyter-server.readthedocs.io/"
 AUTHOR = " <Jupyter Development Team <jupyter@googlegroups.com>>"
-LICENSE = "BSD-3"
+LICENSE = "BSD-3-Clause"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=083556a9912a35360dae8281fb57e886"
 
 SRC_URI[sha256sum] = "d4916c8581c4ebbc534cebdaa8eca2478d9f3bfdd88eae29fcab0120eac57649"
 
-PYPI_PACKAGE = "referencing"
+PYPI_PACKAGE = "jupyter_server"
 
 DEPENDS += "\
-    ${PYTHON_PN}-hatch-vcs-native \
+    python3-argon2-cffi-native \
+    python3-hatch-vcs-native \
+    python3-hatch-jupyter-builder-native \
 "
 
 inherit pypi python_hatchling
