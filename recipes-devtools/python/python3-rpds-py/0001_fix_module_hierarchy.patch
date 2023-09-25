@@ -1,0 +1,47 @@
+--- rpds_py-0.8.3/src/lib.rs.old	2023-09-25 17:30:54.484393003 +0000
++++ rpds_py-0.8.3/src/lib.rs	2023-09-25 17:31:48.058290000 +0000
+@@ -55,7 +55,7 @@
+ }
+ 
+ #[repr(transparent)]
+-#[pyclass(name = "HashTrieMap", module = "rpds", frozen, mapping)]
++#[pyclass(name = "HashTrieMap", frozen, mapping)]
+ struct HashTrieMapPy {
+     inner: HashTrieMapSync<Key, PyObject>,
+ }
+@@ -239,7 +239,7 @@
+     }
+ }
+ 
+-#[pyclass(module = "rpds")]
++#[pyclass]
+ struct KeyIterator {
+     inner: IntoIter<Key>,
+ }
+@@ -256,7 +256,7 @@
+ }
+ 
+ #[repr(transparent)]
+-#[pyclass(name = "HashTrieSet", module = "rpds", frozen)]
++#[pyclass(name = "HashTrieSet", frozen)]
+ struct HashTrieSetPy {
+     inner: HashTrieSetSync<Key>,
+ }
+@@ -451,7 +451,7 @@
+ }
+ 
+ #[repr(transparent)]
+-#[pyclass(name = "List", module = "rpds", frozen, sequence)]
++#[pyclass(name = "List", frozen, sequence)]
+ struct ListPy {
+     inner: ListSync<PyObject>,
+ }
+@@ -569,7 +569,7 @@
+     }
+ }
+ 
+-#[pyclass(module = "rpds")]
++#[pyclass]
+ struct ListIterator {
+     inner: IntoIter<PyObject>,
+ }

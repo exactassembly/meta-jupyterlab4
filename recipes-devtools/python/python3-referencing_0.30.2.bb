@@ -19,7 +19,7 @@ inherit pypi python_hatchling
 
 RDEPENDS:${PN} = "\
     ${PYTHON_PN}-attrs \
+    ${PYTHON_PN}-rpds-py \
 "
-#    ${PYTHON_PN}-rpds-py 
 
 BBCLASSEXTEND = "native nativesdk"
