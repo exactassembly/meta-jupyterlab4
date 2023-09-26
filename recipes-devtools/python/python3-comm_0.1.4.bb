@@ -13,7 +13,7 @@ DEPENDS += "\
 
 inherit pypi python_hatchling
 
-RDEPENDS_${PN} = "\
+RDEPENDS:${PN} = "\
     ${PYTHON_PN}-traitlets \
 "
 

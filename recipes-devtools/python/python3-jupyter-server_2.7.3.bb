@@ -29,9 +29,11 @@ RDEPENDS:${PN} = "\
     ${PYTHON_PN}-nbformat \
     ${PYTHON_PN}-overrides \
     ${PYTHON_PN}-packaging \
+    ${PYTHON_PN}-pexpect \
     ${PYTHON_PN}-prometheus-client \
     ${PYTHON_PN}-pyzmq \
     ${PYTHON_PN}-send2trash \
+    ${PYTHON_PN}-sniffio \
     ${PYTHON_PN}-terminado \
     ${PYTHON_PN}-tornado \
     ${PYTHON_PN}-traitlets \

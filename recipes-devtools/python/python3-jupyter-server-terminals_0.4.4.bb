@@ -2,7 +2,7 @@
 SUMMARY = "A Jupyter Server Extension Providing Terminals."
 HOMEPAGE = "https://jupyter.org/"
 AUTHOR = " <Jupyter Development Team <jupyter@googlegroups.com>>"
-LICENSE = "BSD-3"
+LICENSE = "BSD-3-Clause"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=94ac070e045e2bb0b9fc9446315e8be1"
 
 SRC_URI[sha256sum] = "57ab779797c25a7ba68e97bcfb5d7740f2b5e8a83b5e8102b10438041a7eac5d"

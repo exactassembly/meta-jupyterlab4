@@ -17,6 +17,7 @@ inherit pypi python_hatchling
 
 RDEPENDS:${PN} = "\
     ${PYTHON_PN}-jsonschema \
+    ${PYTHON_PN}-jsonschema-specifications \
     ${PYTHON_PN}-python-json-logger \
     ${PYTHON_PN}-pyyaml \
     ${PYTHON_PN}-referencing \

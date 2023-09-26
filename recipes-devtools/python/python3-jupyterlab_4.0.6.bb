@@ -18,7 +18,7 @@ DEPENDS += "\
 inherit pypi python_hatchling
 
 
-RDEPENDS_${PN} = "\
+RDEPENDS:${PN} = "\
     ${PYTHON_PN}-async-lru \
     ${PYTHON_PN}-ipykernel \
     ${PYTHON_PN}-jinja2 \
@@ -26,8 +26,10 @@ RDEPENDS_${PN} = "\
     ${PYTHON_PN}-jupyter-lsp \
     ${PYTHON_PN}-jupyter-server \
     ${PYTHON_PN}-jupyterlab-server \
+    ${PYTHON_PN}-matplotlib-inline \
     ${PYTHON_PN}-notebook-shim \
     ${PYTHON_PN}-packaging \
+    ${PYTHON_PN}-sqlite3 \
     ${PYTHON_PN}-tornado \
     ${PYTHON_PN}-traitlets \
 "

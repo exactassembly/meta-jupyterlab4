@@ -2,7 +2,7 @@
 SUMMARY = "IPython Kernel for Jupyter"
 HOMEPAGE = ""
 AUTHOR = " <IPython Development Team <ipython-dev@scipy.org>>"
-LICENSE = "BSD-3"
+LICENSE = "BSD-3-Clause"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=159b7ae0b4f7071ca9f0295354f6a49e"
 
 SRC_URI[sha256sum] = "f468ddd1f17acb48c8ce67fcfa49ba6d46d4f9ac0438c1f441be7c3d1372230b"
@@ -22,6 +22,8 @@ RDEPENDS:${PN} = "\
     ${PYTHON_PN}-matplotlib-inline \
     ${PYTHON_PN}-nest-asyncio \
     ${PYTHON_PN}-packaging \
+    ${PYTHON_PN}-ptyprocess \
+    ${PYTHON_PN}-modules \
     ${PYTHON_PN}-psutil \
     ${PYTHON_PN}-pyzmq \
     ${PYTHON_PN}-tornado \
