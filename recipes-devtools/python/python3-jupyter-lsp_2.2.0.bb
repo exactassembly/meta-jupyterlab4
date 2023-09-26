@@ -16,6 +16,7 @@ inherit pypi python_hatchling
 
 RDEPENDS:${PN} += "\
   nodejs \
+  ${PYTHON_PN}-python-language-server \
   ${PYTHON_PN}-fcntl \
 "
 
