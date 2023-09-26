@@ -1,4 +1,3 @@
-
 SUMMARY = "A python library adding a json log formatter"
 HOMEPAGE = "http://github.com/madzak/python-json-logger"
 AUTHOR = "Zakaria Zajac <zak@madzak.com>"
@@ -15,4 +14,3 @@ RDEPENDS:${PN} = "\
 "
 
 BBCLASSEXTEND = "native nativesdk"
-
