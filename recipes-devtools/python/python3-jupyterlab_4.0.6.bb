@@ -29,6 +29,7 @@ RDEPENDS:${PN} = "\
     ${PYTHON_PN}-matplotlib-inline \
     ${PYTHON_PN}-notebook-shim \
     ${PYTHON_PN}-packaging \
+    ${PYTHON_PN}-pandas \
     ${PYTHON_PN}-sqlite3 \
     ${PYTHON_PN}-tornado \
     ${PYTHON_PN}-traitlets \
